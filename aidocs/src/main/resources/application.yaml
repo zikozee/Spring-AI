@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: aidocs
+
+    # auto created except we wann run manually say for prod
+#  sql:
+#    init:
+#      mode: never
+
+  profiles:
+    active: native
+
+  ai:
+    openai:
+      api-key: ${OPEN_API_KEY}
+      # as env in system or ide
+  #      chat:
+  #        options:
+  #          model: gpt-4o
+
+  vectorstore:
+    pgvector:
+      index-type: HNSW
+      distance-type: COSINE_DISTANCE
+      dimensions: 1536
+      initialize-schema: true
+
+  shell:
+    interactive:
+      enabled: true

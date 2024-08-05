@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: aidocs
+
+  docker:
+    compose:
+      file: ./aidocs/compose.yaml
+      lifecycle-management: start_only
+

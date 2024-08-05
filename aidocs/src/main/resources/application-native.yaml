@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: admin
+    password: secret
+    url: jdbc:postgresql://localhost:5432/sbdocs
+
+  main:
+    banner-mode: off
+
+logging:
+  level:
+    root: off

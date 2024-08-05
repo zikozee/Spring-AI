@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: functions
+
+
+  ai:
+    openai:
+      api-key: ${OPEN_API_KEY}
+      # as env in system or ide
+      chat:
+        options:
+          model: gpt-4o
+
+weather:
+  api-key: ${WEATHER_API_KEY}
+  api-url: http://api.weatherapi.com/v1
