@@ -50,3 +50,6 @@
 
 # Embedding API --> https://docs.spring.io/spring-ai/reference/api/embeddings.html
 - converts text into numerical vectors
+
+# vision capabilities: translating image to text/code #1
+- load in image and ask the AI to interpret
