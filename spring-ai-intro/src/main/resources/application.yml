@@ -6,10 +6,10 @@ spring:
     openai:
       api-key: ${OPEN_API_KEY}
       # as env in system or ide
-#      chat:
-#        options:
-#          model: gpt-4o
+      chat:
+        options:
+          model: gpt-4o
 
-  docker:
-    compose:
-      file: ./spring-ai-intro/compose.yaml
+#  docker:
+#    compose:
+#      file: ./spring-ai-intro/compose.yaml
